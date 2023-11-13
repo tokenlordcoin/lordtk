@@ -59,11 +59,11 @@ export default function Header() {
         <>
           <div className="flex flex-row justify-between items-center relative">
             <span>
-              <img src="/images/logo.png" width="220" alt="StakingElixir.com" />
+              <img src="/images/logo.png" width="220" alt="memelordapp.com" />
             </span>
             <span>
               <a
-                href="https://staking-elixir.web3market.site/"
+                href="https://memelordapp.com/"
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -73,7 +73,7 @@ export default function Header() {
                 </span>
               </a>
               <a
-                href="https://www.dextools.io/app/en/ether/pair-explorer/#"
+                href="https://www.dextools.io/app/en/ether/pair-explorer/0x4f0d0b05e14070e4f83e4d8ef6f51f9942734bd8"
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -83,7 +83,7 @@ export default function Header() {
                 </span>
               </a>
               <a
-                href="https://faucet.web3market.site"
+                href="https://memelordapp.com/"
                 rel="noreferrer noopener"
                 target="_blank"
               >
@@ -135,7 +135,7 @@ export default function Header() {
       ) : (
         <>
           <div className="flex flex-row justify-between items-center relative">
-            <img src="/images/logo.png" width="140" alt="StakingElixir.com" />
+            <img src="/images/logo.png" width="140" alt="memelordapp.com/" />
 
             <ConnectKitButton.Custom>
               {({
@@ -187,7 +187,7 @@ export default function Header() {
                   "transition duration-500 ease-in-out delay-500 py-4",
                   clicked ? "opacity-100" : "opacity-0"
                 )}
-                href="https://staking-elixir.web3market.site/"
+                href="https://memelordapp.com/"
               >
                 <span className="flex flex-row justify-center">
                   {" "}
@@ -200,7 +200,7 @@ export default function Header() {
                   "transition duration-500 ease-in-out delay-500 py-4",
                   clicked ? "opacity-100" : "opacity-0"
                 )}
-                href="https://staking-elixir.web3market.site/"
+                href="https://memelordapp.com/"
               >
                 <span className="flex flex-row justify-center">
                   {" "}
@@ -214,7 +214,7 @@ export default function Header() {
                   "transition duration-500 ease-in-out delay-500 py-4",
                   clicked ? "opacity-100" : "opacity-0"
                 )}
-                href="https://www.dextools.io/app/en/ether/pair-explorer/#"
+                href="https://www.dextools.io/app/en/ether/pair-explorer/0x4f0d0b05e14070e4f83e4d8ef6f51f9942734bd8"
               >
                 <span className="flex flex-row justify-center">
                   {" "}
@@ -227,7 +227,7 @@ export default function Header() {
                   "transition duration-500 ease-in-out delay-500 py-4",
                   clicked ? "opacity-100" : "opacity-0"
                 )}
-                href="https://faucet.web3market.site/"
+                href="https://memelordapp.com/"
               >
                 <span className="flex flex-row justify-center">
                   {" "}
@@ -241,9 +241,9 @@ export default function Header() {
                 )}
               >
                 &copy; {new Date().getFullYear()} Copyright{" "}
-                <a href="https://staking-elixir.web3market.site/">
+                <a href="https://memelordapp.com/">
                   {" "}
-                  Copyright - Staking Nova - Web3Market - v0.0.1{" "}
+                  Copyright - Staking Lordtoken - Web3 - v0.0.1{" "}
                 </a>
               </span>
             </div>

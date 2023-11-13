@@ -244,7 +244,7 @@ const StakingPage = () => {
     if (Number(balance) === 0 || !amount || Number(amount) === 0) {
       setErrorMessage(
         Number(balance) === 0
-          ? "You don't have any $W3Token's yet!"
+          ? "You don't have any $LORD's yet!"
           : "Please provide the amount needed to stake!"
       );
       setShowModal(true);
@@ -286,7 +286,7 @@ const StakingPage = () => {
     if (Number(balance) === 0 || !amount || Number(amount) === 0) {
       setErrorMessage(
         Number(balance) === 0
-          ? "You don't have any $W3Token's yet!"
+          ? "You don't have any $LORD yet!"
           : "Please provide the amount needed to stake!"
       );
       setShowModal(true);
@@ -320,7 +320,7 @@ const StakingPage = () => {
     if (Number(stakes) === 0 || !unstakeAmount || Number(unstakeAmount) === 0) {
       setErrorMessage(
         Number(stakes) === 0
-          ? "You don't have any staked $W3Token's yet!"
+          ? "You don't have any staked $LORD yet!"
           : "Please provide the amount needed to unstake!"
       );
       setShowModal(true);
@@ -425,16 +425,16 @@ const StakingPage = () => {
           {!address && (
             <div className="w-full py-6 text-center">
               <div className="text-white text-center mt-6 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold">
-                <h1>Welcome to W3Token App</h1>
+                <h1>Welcome to MemelordApp</h1>
               </div>
               <div className="w-full md:w-3/6 justify-center mx-auto mt-6">
                 <Card title="Rules">
                   <div className="flex flex-col pt-8 pb-4 text-white text-center">
                     <ul>
                       <li>1. Connect your Web3 Wallet</li>
-                      <li>2. Stake W3Token tokens and earn daily returns</li>
+                      <li>2. Stake $LORD tokens and earn daily returns</li>
                       <li>3. Withdraw earned rewards anytime</li>
-                      <li>4. Unstake W3Token tokens anytime</li>
+                      <li>4. Unstake $LORD tokens anytime</li>
                       <li>5. Earn EXTRA rewards by referring NEW investors</li>
                     </ul>
                   </div>
@@ -466,7 +466,7 @@ const StakingPage = () => {
           )}
           {address && (
             <div className="grid grid-col-1 md:grid-cols-2 mb-10 gap-6 mt-10">
-              <Card title="Total W3Token Tokens Staked">
+              <Card title="Total LORD Tokens Staked">
                 <div className="flex flex-col pt-8 pb-4 text-white">
                   <div className="text-center">
                     <span className="text-white text-5xl">
@@ -483,7 +483,7 @@ const StakingPage = () => {
                         formatValue={(value) => `${formattedShort(value)}`}
                       ></AnimatedNumber>
                     </span>
-                    <span className="text-white text-3xl ml-2">W3Token</span>
+                    <span className="text-white text-3xl ml-2">LORD</span>
                   </div>
                   {/* <div className="text-center text-3xl 	">
                     Total Value: <AnimatedNumber
@@ -537,7 +537,7 @@ const StakingPage = () => {
                                 `${formattedNumberTwo(value)}`
                               }
                             ></AnimatedNumber>{" "}
-                            W3Token
+                            LORD
                           </span>
                         </li>
                         <li>
@@ -589,7 +589,7 @@ const StakingPage = () => {
                                 `${formattedNumberTwo(value)}`
                               }
                             ></AnimatedNumber>{" "}
-                            W3Token
+                            LORD
                           </span>
                         </li>
                       </ul>
@@ -621,7 +621,7 @@ const StakingPage = () => {
                           }
                         ></AnimatedNumber>
                       </span>
-                      <span className="text-white text-2xl ml-2">W3Token</span>
+                      <span className="text-white text-2xl ml-2">LORD</span>
                     </div>
                     <div className="text-center pb-4">
                       <span className="text-lg text-gray-400">
@@ -643,12 +643,12 @@ const StakingPage = () => {
                           }
                         ></AnimatedNumber>
                       </span>
-                      <span className="text-white text-2xl ml-2">W3Token</span>
+                      <span className="text-white text-2xl ml-2">LORD</span>
                     </div>
                     <div className="rounded-md border-2 border-primary p-2 ml-10 mr-10 flex justify-between items-center">
                       <input
                         type="number"
-                        placeholder="W3Token To Stake"
+                        placeholder="LORD To Stake"
                         value={amount}
                         onChange={(e) => setAmount(e.target.value)}
                         className="text-white font-extrabold flex-shrink text-xs sm:text-2xl w-full bg-transparent focus:outline-none focus:bg-white focus:text-black px-2"
@@ -693,7 +693,7 @@ const StakingPage = () => {
                       <span className="text-lg text-gray-400">
                         If you have a wallet to referr, please type it here.
                         It's important that the mentioned wallet to have some
-                        W3Token Tokens already staked otherwise, it will not
+                        LORD Tokens already staked otherwise, it will not
                         work.
                       </span>
                     </div>
@@ -720,7 +720,7 @@ const StakingPage = () => {
                           formatValue={(value) => `${formattedNumber(value)}`}
                         ></AnimatedNumber>
                       </span>
-                      <span className="text-white text-2xl ml-2">W3Token</span>
+                      <span className="text-white text-2xl ml-2">LORD</span>
                     </div>
                     <div className="text-center pb-4">
                       <span className="text-lg text-gray-400">
@@ -742,12 +742,12 @@ const StakingPage = () => {
                           }
                         ></AnimatedNumber>
                       </span>
-                      <span className="text-white text-2xl ml-2">W3Token</span>
+                      <span className="text-white text-2xl ml-2">LORD</span>
                     </div>
                     <div className="rounded-md border-2 border-primary p-2 ml-10 mr-10 flex justify-between items-center">
                       <input
                         type="number"
-                        placeholder="W3Token To Stake"
+                        placeholder="LORD To Stake"
                         value={amount}
                         onChange={(e) => setAmount(e.target.value)}
                         className="text-white font-extrabold flex-shrink text-xs sm:text-2xl w-full bg-transparent focus:outline-none focus:bg-white focus:text-black px-2"
@@ -798,7 +798,7 @@ const StakingPage = () => {
                         formatValue={(value) => `${formattedNumberTwo(value)}`}
                       ></AnimatedNumber>
                     </span>
-                    <span className="text-white text-2xl ml-2">W3Token</span>
+                    <span className="text-white text-2xl ml-2">LORD</span>
                   </div>
                   <div className="flex flex-row justify-center">
                     <Button
@@ -836,7 +836,7 @@ const StakingPage = () => {
                             `${formattedNumberTwo(value)}`
                           }
                         ></AnimatedNumber>{" "}
-                        W3Token
+                        LORD
                       </div>
                       <div>
                         <span className="text-gray-400 text-lg">
@@ -871,7 +871,7 @@ const StakingPage = () => {
                             `${formattedNumberTwo(value)}`
                           }
                         ></AnimatedNumber>{" "}
-                        W3Token
+                        LORD
                       </div>
                       <div>
                         <span className="text-gray-400 text-lg">
@@ -904,12 +904,12 @@ const StakingPage = () => {
                         formatValue={(value) => `${formattedNumberTwo(value)}`}
                       ></AnimatedNumber>
                     </span>
-                    <span className="text-white text-2xl ml-2">W3Token</span>
+                    <span className="text-white text-2xl ml-2">LORD</span>
                   </div>
                   <div className="rounded-md border-2 border-primary p-2 ml-10 mr-10 flex justify-between items-center">
                     <input
                       type="number"
-                      placeholder="W3Token To Unstake"
+                      placeholder="LORD To Unstake"
                       value={unstakeAmount}
                       onChange={(e) => setUnstakeAmount(e.target.value)}
                       className="text-white font-extrabold flex-shrink text-xs sm:text-2xl w-full bg-transparent focus:outline-none focus:bg-white focus:text-black px-2"
@@ -964,13 +964,13 @@ const StakingPage = () => {
                     <input
                       type="text"
                       readOnly
-                      value={"https://website URL/referral/".concat(address)}
+                      value={"https://memelordapp.com/referral/".concat(address)}
                       onChange={(e) => setUnstakeAmount(e.target.value)}
                       className="text-white font-extrabold flex-shrink text-xs w-full bg-transparent focus:outline-none focus:bg-white focus:text-black px-2"
                     />
                     <CopyToClipboard
                       onCopy={() => setCopied(true)}
-                      text={"https://<website URL>/referral/".concat(address)}
+                      text={"https://memelordapp.com/referral/".concat(address)}
                     >
                       <Button className="flex flex-row items-center w-48 justify-center">
                         {copied ? (
@@ -991,7 +991,7 @@ const StakingPage = () => {
                   <div className="text-center p-5">
                     <span className="text-lg text-gray-400">
                       The new investor has to enter your Wallet Address that
-                      you've staked W3Token with when he stakes.
+                      you've staked LORD with when he stakes.
                     </span>
                   </div>
                 </div>

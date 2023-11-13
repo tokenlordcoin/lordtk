@@ -32,8 +32,8 @@ const config = createConfig(
     // Required
     appName: "Staking-Elixir", // Your app name
     // Optional
-    appDescription: "Staking DApp - Created by Web3Market.site",
-    appUrl: "https://staking-elixir.web3market.site/", // your app's url
+    appDescription: "Staking DApp - Created by MEMELORD",
+    appUrl: "https://memelordapp.com/", // your app's url
     publicClient,
   })
 );

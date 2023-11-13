@@ -7,14 +7,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
           <div>
             <a
-              href="https://staking-elixir.web3market.site/"
+              href="https://memelordapp.com/"
               className="logo flex flex-row items-center"
             >
               <img
                 src="/images/logo.png"
                 width="220"
                 className="cursor-pointer"
-                alt="https://staking-elixir.web3market.site/"
+                alt="https://memelordapp.com/"
               />
             </a>
             <div className="uppercase text-white text-md mb-3 mt-4 text-left">
@@ -22,7 +22,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-row items-center ">
               <a
-                href="https://x.com/"
+                href="https://twitter.com/memelord_coin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mr-4"
@@ -30,7 +30,7 @@ export default function Footer() {
                 <img src="/images/sm-x.svg" alt="" width="20" />
               </a>
               <a
-                href="https://t.me/"
+                href="https://t.me/memelord_coin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mr-4"
@@ -42,16 +42,16 @@ export default function Footer() {
           <div className="text-white leading-7 text-xs cursor-pointer flex flex-col">
             <a
               rel="noreferrer noopener"
-              href="https://staking-elixir.web3market.site/"
+              href="https://memelordapp.com/"
               className="font-Montserrat-ExtraBold uppercase"
             >
               About Us
             </a>
             {/* <div>Project</div> */}
-            <a rel="noreferrer noopener" href="https://staking-elixir.web3market.site/">
+            <a rel="noreferrer noopener" href="https://memelordapp.com/">
               Website
             </a>
-            <a rel="noreferrer noopener" href="https://staking-elixir.web3market.site/">
+            <a rel="noreferrer noopener" href="https://memelordapp.com/">
               Team
             </a>
             {/* <div>Ecosystem</div> */}
@@ -61,14 +61,14 @@ export default function Footer() {
               Documentation
             </div>
             <a
-              href="https://staking-elixir.web3market.site/"
+              href="https://memelordapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Taxes & Tokenomics
             </a>
             <a
-              href="https://staking-elixir.web3market.site/"
+              href="https://memelordapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -78,8 +78,8 @@ export default function Footer() {
         </div>
         <div className="footer-copyright text-center py-3 text-xs text-white mt-5">
           <div fluid>
-            &copy; {new Date().getFullYear()} Copyright - Staking Elixir -
-            Web3Market - v0.0.1
+            &copy; {new Date().getFullYear()} Copyright - Staking TokenLord -
+            Web3 - v0.0.1
           </div>
         </div>
       </footer>
